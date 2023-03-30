@@ -1,16 +1,16 @@
 <template>
-    <HelloWorld />
+    <OverView />
 </template>
 
 <script lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
+import OverView from '@/components/OverView.vue';
 
 import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: 'Home',
     components: {
-        HelloWorld,
-    },
+    OverView
+},
 })
 </script>

@@ -18,18 +18,6 @@ Create new Terminal instance: <kbd>ctrl</kbd> + <kbd>t</kbd>
 
 Split terminal: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>5</kbd>
 
-## Navigate with Focus
-
-Focus on Editor: <kbd>alt</kbd> + <kbd>e</kbd>
-
-Focus on Primary Site Bar (Files): <kbd>alt</kbd> + <kbd>f</kbd>
-
-Focus on Terminal: <kbd>alt</kbd> + <kbd>t</kbd>
-
-Focus on Terminal Management: <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>
-
-Open temporary/preview file: <kbd>space</kbd>
-
 ## Editor
 
 Format: <kbd>F4</kbd>
@@ -56,7 +44,22 @@ Fold level: <kbd>ctrl</kbd> + <kbd>q</kbd> <kbd>ctrl</kbd> + <kbd>foldlevel(1-7)
 
 Unfold: <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>q</kbd>
 
-<!-- Git file history: <kbd>alt</kbd> + <kbd>h</kbd> -->
+Multiline Cursor: <kdb>alt</kdb> + <kdb>shift</kdb> + <kdb>up</kdb>/<kdb>down</kdb>
+
+Git file history: <kbd>alt</kbd> + <kbd>h</kbd>
+
+## Navigate with Focus
+
+Focus on Editor: <kbd>alt</kbd> + <kbd>e</kbd>
+
+Focus on Primary Site Bar (Files): <kbd>alt</kbd> + <kbd>f</kbd>
+
+Focus on Terminal: <kbd>alt</kbd> + <kbd>t</kbd>
+
+Focus on Terminal Management: <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>
+
+Open temporary/preview file: <kbd>space</kbd>
+
 
 ## Workspace
 
