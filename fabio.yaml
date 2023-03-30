@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: key-deploy
+spec:
+  selector:
+    matchLabels:
+      app: key-deploy
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: key-deploy
+    spec:
+      containers:
+      - name: key-deploy
+        image: ghcr.io/fabiokaelin/key:latest
+        env:
+
+        ports:
+        - containerPort: 80
+      imagePullSecrets:
+      - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: key-service
+spec:
+  selector:
+    app: key-deploy
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: key-ingress
+spec:
+  rules:
+    - host: key.fabkli.ch
+      http:
+        paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: key-service
+              port:
+                number: 80

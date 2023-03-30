@@ -1,0 +1,10 @@
+{
+    "replicas": 1,
+    "name": "key",
+    "port": 80,
+    "path": "/",
+    "website": "key.fabkli.ch"
+    // "env":[
+    //     {"name": "env1", "value": "valenv1ue"}
+    // ]
+}
