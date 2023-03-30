@@ -1,7 +1,16 @@
 <template>
-  <HelloWorld />
+    <HelloWorld />
 </template>
 
-<script lang="ts" setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+<script lang="ts">
+import HelloWorld from '@/components/HelloWorld.vue'
+
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+    name: 'Home',
+    components: {
+        HelloWorld,
+    },
+})
 </script>
