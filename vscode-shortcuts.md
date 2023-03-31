@@ -60,7 +60,6 @@ Focus on Terminal Management: <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>
 
 Open temporary/preview file: <kbd>space</kbd>
 
-
 ## Workspace
 
 Open File: <kbd>ctrl</kbd> + <kbd>o</kbd>

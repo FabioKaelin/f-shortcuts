@@ -47,7 +47,7 @@ const jsonString = {
                     ]
                 },
                 {
-                    "name": "Navigate with Focus",
+                    "name": "Editor",
                     "shortcuts": [
                         {
                             "description": "Format",
@@ -64,6 +64,46 @@ const jsonString = {
                         {
                             "description": "Duplicate line",
                             "keys": "alt + d alt + d"
+                        },
+                        {
+                            "description": "Move line",
+                            "keys": "alt + up / alt + down"
+                        },
+                        {
+                            "description": "Toggle comment",
+                            "keys": "ctrl + §"
+                        },
+                        {
+                            "description": "Delete Line",
+                            "keys": "ctrl + x or ctrl + alt + x"
+                        },
+                        {
+                            "description": "Toggle horizontal scrollbar",
+                            "keys": "alt z"
+                        },
+                        {
+                            "description": "Rename reference (Variable, Function, etc.)",
+                            "keys": "F2"
+                        },
+                        {
+                            "description": "Save without formatting",
+                            "keys": "ctrl + k ctrl + s"
+                        },
+                        {
+                            "description": "Fold level",
+                            "keys": "ctrl + q ctrl foldlevel(1-7)"
+                        },
+                        {
+                            "description": "Unfold",
+                            "keys": "ctrl + shift + q"
+                        },
+                        {
+                            "description": "Multiline cursor",
+                            "keys": "alt + click"
+                        },
+                        {
+                            "description": "Git file history",
+                            "keys": "alt + h"
                         }
                     ]
                 }
