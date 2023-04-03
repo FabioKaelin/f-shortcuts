@@ -172,11 +172,11 @@ const jsonString = {
                     "shortcuts": [
                         {
                             "description": "Open terminal",
-                            "keys": "ctrl + alt + t or super + t"
+                            "keys": "super + t or ctrl + alt + t"
                         },
                         {
                             "description": "Open file explorer (nautilus)",
-                            "keys": "ctrl + alt + f or super + e"
+                            "keys": "super + e or ctrl + alt + f"
                         },
                         {
                             "description": "Open settings",
@@ -185,6 +185,34 @@ const jsonString = {
                         {
                             "description": "Open chrome",
                             "keys": "super + 1"
+                        },
+                        {
+                            "description": "Open taskbar application",
+                            "keys": "super + number"
+                        },
+                        {
+                            "description": "lock screen",
+                            "keys": "super + l"
+                        },
+                        {
+                            "description": "close window",
+                            "keys": "alt + f4"
+                        },
+                        {
+                            "description": "open application menu",
+                            "keys": "super"
+                        },
+                        {
+                            "description": "shutdown",
+                            "keys": "alt + shift + f4"
+                        },
+                        {
+                            "description": "switch between windows",
+                            "keys": "alt + tab"
+                        },
+                        {
+                            "description": "switch desktops",
+                            "keys": "super + alt + left/right"
                         },
                     ]
                 }
@@ -243,6 +271,30 @@ const jsonString = {
                         {
                             "description": "lock screen",
                             "keys": "windows + l"
+                        },
+                        {
+                            "description": "switch between windows",
+                            "keys": "alt + tab"
+                        },
+                        {
+                            "description": "switch desktops",
+                            "keys": "windows + ctrl + left/right"
+                        },
+                        {
+                            "description": "open start menu",
+                            "keys": "windows"
+                        },
+                        {
+                            "description": "close window",
+                            "keys": "alt + f4"
+                        },
+                        {
+                            "description": "open browser",
+                            "keys": "windows + 1"
+                        },
+                        {
+                            "description": "open taskbar application",
+                            "keys": "windows + number"
                         },
                     ]
                 }

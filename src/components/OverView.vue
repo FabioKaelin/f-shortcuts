@@ -3,7 +3,7 @@
         <v-container class="fill-height">
             <v-responsive class="d-flex align-center text-center fill-height">
                 <div>
-                    <v-expansion-panels v-model="panels" multiple variant="accordion">
+                    <v-expansion-panels v-model="panels" multiple variant="default">
                         <v-expansion-panel v-for="item in shortcuts" :key="item.name">
                             <v-expansion-panel-title>{{ item.name }}</v-expansion-panel-title>
                             <v-expansion-panel-text>
@@ -13,6 +13,7 @@
                                     v-bind:categories="category"></categories>
                             </v-expansion-panel-text>
                         </v-expansion-panel>
+                        <br>
 
                     </v-expansion-panels>
 
