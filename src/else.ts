@@ -87,7 +87,7 @@ const jsonString = {
                         },
                         {
                             "description": "Save without formatting",
-                            "keys": "ctrl + k ctrl + s"
+                            "keys": "ctrl+ alt + s"
                         },
                         {
                             "description": "Fold level",
