@@ -22,7 +22,7 @@ const jsonString = {
                     "shortcuts": [
                         {
                             "description": "Toggle horizontal scrollbar",
-                            "keys": "alt z"
+                            "keys": "alt + z"
                         },
                         {
                             "description": "Change Terminal Focus (switch between terminal windows)",
@@ -79,7 +79,7 @@ const jsonString = {
                         },
                         {
                             "description": "Toggle horizontal scrollbar",
-                            "keys": "alt z"
+                            "keys": "alt + z"
                         },
                         {
                             "description": "Rename reference (Variable, Function, etc.)",
@@ -91,7 +91,7 @@ const jsonString = {
                         },
                         {
                             "description": "Fold level",
-                            "keys": "ctrl + q ctrl foldlevel(1-7)"
+                            "keys": "ctrl + q ctrl + foldlevel(1-7)"
                         },
                         {
                             "description": "Unfold",
