@@ -212,10 +212,94 @@ const jsonString = {
                         },
                         {
                             "description": "switch desktops",
-                            "keys": "super + alt + left/right"
+                            "keys": "super + alt + left/right or super + pgup/pgdown"
+                        },
+                        {
+                            "description": "show notifications",
+                            "keys": "super + m or super + v"
+                        },
+                        {
+                            "description": "show desktop",
+                            "keys": "super + d"
+                        },
+                        {
+                            "description": "run command quick",
+                            "keys": "alt + f2"
                         },
                     ]
-                }
+                },
+                {
+                    "name": "Nautlius (file explorer)",
+                    "shortcuts": [
+                        {
+                            "description": "Open new tab",
+                            "keys": "ctrl + t"
+                        },
+                        {
+                            "description": "close tab",
+                            "keys": "ctrl + w"
+                        },
+                        {
+                            "description": "Open new window",
+                            "keys": "ctrl + n"
+                        },
+                        {
+                            "description": "create new folder",
+                            "keys": "ctrl + shift + n"
+                        },
+                        {
+                            "description": "close tab",
+                            "keys": "ctrl + w"
+                        },
+                        {
+                            "description": "navigate to path bar",
+                            "keys": "ctrl + l"
+                        },
+                        {
+                            "description": "list view",
+                            "keys": "ctrl + 1"
+                        },
+                        {
+                            "description": "icon view",
+                            "keys": "ctrl + 2"
+                        },
+                        {
+                            "description": "rename file/folder",
+                            "keys": "f2"
+                        },
+                        {
+                            "description": "swicht to tab",
+                            "keys": "alt + number"
+                        },
+                        {
+                            "description": "close all naughty windows",
+                            "keys": "ctrl + q"
+                        },
+                    ]
+                },
+                {
+                    "name": "Terminal",
+                    "shortcuts": [
+                        {
+                            "description": "Open new tab",
+                            "keys": "ctrl + shift + t"
+                        },
+                        {
+                            "description": "close tab",
+                            "keys": "ctrl + shift + w"
+                        },
+                        {
+                            "description": "Open new window",
+                            "keys": "ctrl + shift + n"
+                        },
+                        {
+                            "description": "close window",
+                            "keys": "ctrl + shift + q"
+                        },
+                        {
+                            "description": "switch to tab",
+                            "keys": "ctrl + pgup/pgdown"
+                        },
             ]
         },
         {
@@ -295,6 +379,10 @@ const jsonString = {
                         {
                             "description": "open taskbar application",
                             "keys": "windows + number"
+                        },
+                        {
+                            "description": "show acton center",
+                            "keys": "windows + a"
                         },
                     ]
                 }
