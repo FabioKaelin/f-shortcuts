@@ -300,6 +300,8 @@ const jsonString = {
                             "description": "switch to tab",
                             "keys": "ctrl + pgup/pgdown"
                         },
+                    ]
+                }
             ]
         },
         {
