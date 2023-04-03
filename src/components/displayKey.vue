@@ -26,11 +26,8 @@ export default defineComponent({
         let html = ""
         html = "<kbd>" + this.keys + "</kbd>"
         html = html.replaceAll(" + ", "</kbd> + <kbd>")
-        // html = html.replaceAll(" + ", "</kbd>&nbsp;+&nbsp;<kbd>")
         html = html.replaceAll(" / ", "</kbd> / <kbd>")
-        // html = html.replaceAll(" / ", "</kbd>&nbsp;/&nbsp;<kbd>")
         html = html.replaceAll(" or ", "</kbd> or <kbd>")
-        // html = html.replaceAll(" or ", "</kbd>&nbsp;or&nbsp;<kbd>")
         html = html.replaceAll(" ", "&nbsp")
         this.html = html
         console.log(html)

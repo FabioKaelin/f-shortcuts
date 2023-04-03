@@ -106,6 +106,60 @@ const jsonString = {
                             "keys": "alt + h"
                         }
                     ]
+                },
+                {
+                    "name": "Navigate with Focus",
+                    "shortcuts": [
+                        {
+                            "description": "Go to definition",
+                            "keys": "F12 or ctrl + click"
+                        },
+                        {
+                            "description":"Focus on Editor",
+                            "keys":"alt + e"
+                        },
+                        {
+                            "description":"Focus on Primary Site Bar (Explorer/Files)",
+                            "keys":"alt + f"
+                        },
+                        {
+                            "description":"Focus on Terminal",
+                            "keys":"alt + t"
+                        },
+                        {
+                            "description":"Focus on Terminal manager",
+                            "keys":"alt + shift + t"
+                        },
+                        {
+                            "description":"Open terporary/preview file",
+                            "keys":"space"
+                        },
+                    ]
+                },
+                {
+                    "name": "Workspace",
+                    "shortcuts": [
+                        {
+                            "description": "Open File",
+                            "keys": "ctrl + o"
+                        },
+                        {
+                            "description": "Open Folder",
+                            "keys": "ctrl + k ctrl + o"
+                        },
+                        {
+                            "description": "Open Workspace from file",
+                            "keys": "ctrl + k ctrl + i"
+                        },
+                        {
+                            "description": "New File in editor",
+                            "keys": "ctrl + n"
+                        },
+                        {
+                            "description": "New Folder in explorer",
+                            "keys": "ctrl + shift + n"
+                        },
+                    ]
                 }
             ]
         }
