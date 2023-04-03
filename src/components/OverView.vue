@@ -33,7 +33,7 @@ export default defineComponent({
     data() {
         return {
             shortcuts: getShortcuts(),
-            panels: [0]
+            panels: [0,1,2]
         };
     },
     components: { categories }

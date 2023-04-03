@@ -115,24 +115,24 @@ const jsonString = {
                             "keys": "F12 or ctrl + click"
                         },
                         {
-                            "description":"Focus on Editor",
-                            "keys":"alt + e"
+                            "description": "Focus on Editor",
+                            "keys": "alt + e"
                         },
                         {
-                            "description":"Focus on Primary Site Bar (Explorer/Files)",
-                            "keys":"alt + f"
+                            "description": "Focus on Primary Site Bar (Explorer/Files)",
+                            "keys": "alt + f"
                         },
                         {
-                            "description":"Focus on Terminal",
-                            "keys":"alt + t"
+                            "description": "Focus on Terminal",
+                            "keys": "alt + t"
                         },
                         {
-                            "description":"Focus on Terminal manager",
-                            "keys":"alt + shift + t"
+                            "description": "Focus on Terminal manager",
+                            "keys": "alt + shift + t"
                         },
                         {
-                            "description":"Open terporary/preview file",
-                            "keys":"space"
+                            "description": "Open terporary/preview file",
+                            "keys": "space"
                         },
                     ]
                 },
@@ -158,6 +158,91 @@ const jsonString = {
                         {
                             "description": "New Folder in explorer",
                             "keys": "ctrl + shift + n"
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Linux (Ubuntu)",
+            "description": "My favorite operating system",
+            "categories": [
+                {
+                    "name": "General",
+                    "shortcuts": [
+                        {
+                            "description": "Open terminal",
+                            "keys": "ctrl + alt + t or super + t"
+                        },
+                        {
+                            "description": "Open file explorer (nautilus)",
+                            "keys": "ctrl + alt + f or super + e"
+                        },
+                        {
+                            "description": "Open settings",
+                            "keys": "super + i"
+                        },
+                        {
+                            "description": "Open chrome",
+                            "keys": "super + 1"
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Google Chrome",
+            "description": "My favorite browser",
+            "categories": [
+                {
+                    "name": "General",
+                    "shortcuts": [
+                        {
+                            "description": "Open new tab",
+                            "keys": "ctrl + t"
+                        },
+                        {
+                            "description": "Open new window",
+                            "keys": "ctrl + n"
+                        },
+                        {
+                            "description": "Open new incognito window",
+                            "keys": "ctrl + shift + n"
+                        },
+                        {
+                            "description": "Close tab",
+                            "keys": "ctrl + w"
+                        },
+                        {
+                            "description": "Navigate to search bar and execute google search",
+                            "keys": "ctrl + k"
+                        },
+                        {
+                            "description": "Navigate to search bar",
+                            "keys": "ctrl + l"
+                        },
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Windows",
+            "description": "second class operating system",
+            "categories": [
+                {
+                    "name": "General",
+                    "shortcuts": [
+                        {
+                            "description": "Open settings",
+                            "keys": "windows + i"
+                        },
+                        {
+                            "description": "Open task manager",
+                            "keys": "ctrl + shift + esc"
+                        },
+                        {
+                            "description": "lock screen",
+                            "keys": "windows + l"
                         },
                     ]
                 }
