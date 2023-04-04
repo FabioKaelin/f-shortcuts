@@ -329,7 +329,7 @@ const jsonString = {
                         },
                         {
                             "description": "Navigate to search bar and execute google search",
-                            "keys": "ctrl + k"
+                            "keys": "ctrl + k or ctrl + e"
                         },
                         {
                             "description": "Navigate to search bar",
