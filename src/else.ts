@@ -389,6 +389,53 @@ const jsonString = {
                     ]
                 }
             ]
+        },
+        {
+            "name": "SpeedRunners",
+            "description": "A fun game",
+            "categories": [
+                {
+                    "name": "Controll",
+                    "shortcuts": [
+                        {
+                            "description": "Jump",
+                            "keys": "Space"
+                        },
+                        {
+                            "description": "Slide",
+                            "keys": "S"
+                        },
+                        {
+                            "description": "Left",
+                            "keys": "A"
+                        },
+                        {
+                            "description": "Right",
+                            "keys": "D"
+                        },
+                        {
+                            "description": "Boost",
+                            "keys": "LeftShift"
+                        },
+                        {
+                            "description": "Swap Weapon",
+                            "keys": "I"
+                        },
+                        {
+                            "description": "Use Item",
+                            "keys": "O"
+                        },
+                        {
+                            "description": "Grapple",
+                            "keys": "P"
+                        },
+                        {
+                            "description": "Pause",
+                            "keys": "Escape"
+                        },
+                    ]
+                }
+            ]
         }
     ]
 }
