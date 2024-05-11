@@ -1,8 +1,8 @@
 apiVersion: k8s.fabkli.ch/v1
 kind: Fdeployment
 metadata:
-  name: frontend
-  namespace: shortcuts
+  name: keys
+  namespace: keys
 spec:
   path: "/"
   replicas: 1
