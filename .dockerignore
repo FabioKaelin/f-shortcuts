@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.sample
+.gitignore
+fabio.jsonc
+fabio.yaml
+README.md
+resources/deploy.sh
+resources/fdeployment-dev.yaml

@@ -1,0 +1,25 @@
+apiVersion: k8s.fabkli.ch/v1
+kind: Fdeployment
+metadata:
+  name: frontend
+  namespace: shortcuts
+spec:
+  path: "/"
+  replicas: 1
+  port: 80
+  tag: "latest"
+  image: "keys"
+  resources:
+    limits:
+      cpu: 200m
+      memory: 1024Mi
+    requests:
+      cpu: 50m
+      memory: 128Mi
+  healthCheck:
+    livenessProbe:
+      path: "/"
+    readinessProbe:
+      path: "/"
+  host: "keys.fabkli.ch"
+  env:
