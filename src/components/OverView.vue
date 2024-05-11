@@ -37,6 +37,12 @@ export default defineComponent({
             panels: [0,1,2]
         };
     },
+    mounted() {
+        const isLocal = window.location.href.includes('localhost');
+        if (isLocal) {
+            this.panels = [1];
+        }
+    },
     components: { categories }
 })
 </script>
