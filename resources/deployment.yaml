@@ -4,6 +4,8 @@ metadata:
   name: keys
   namespace: keys
 spec:
+  security:
+    nginxCompatibility: true
   path: "/"
   replicas: 1
   port: 80
