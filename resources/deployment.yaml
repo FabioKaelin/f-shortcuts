@@ -4,6 +4,9 @@ metadata:
   name: keys
   namespace: keys
 spec:
+  priorityClassName: fabkli-shortcuts
+  security:
+    nginxCompatibility: true
   path: "/"
   replicas: 1
   port: 80
