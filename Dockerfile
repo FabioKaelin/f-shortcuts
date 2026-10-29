@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM --platform=$BUILDPLATFORM node:lts AS build
+FROM --platform=$BUILDPLATFORM node:24-alpine AS build
 LABEL org.opencontainers.image.source https://github.com/fabiokaelin/f-shortcuts
 WORKDIR /app
 # cache packages in layer
@@ -18,6 +18,7 @@ RUN echo $TARGETOS $TARGETARCH
 
 # production stage
 FROM nginx:stable-alpine as production
+RUN apk upgrade --no-cache
 LABEL org.opencontainers.image.source https://github.com/fabiokaelin/f-shortcuts
 COPY --from=build /app/dist /usr/share/nginx/html
 RUN rm /etc/nginx/conf.d/default.conf
