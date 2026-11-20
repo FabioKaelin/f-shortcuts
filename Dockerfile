@@ -18,7 +18,9 @@ RUN echo $TARGETOS $TARGETARCH
 
 # production stage
 FROM nginx:stable-alpine as production
-RUN apk upgrade --no-cache
+RUN sed -i -E '/^nginx([=-]|-module-)/s/=.*//' /etc/apk/world \
+    && echo "https://nginx.org/packages/alpine/v$(cut -d. -f1,2 /etc/alpine-release)/main" >> /etc/apk/repositories \
+    && apk upgrade --no-cache
 LABEL org.opencontainers.image.source https://github.com/fabiokaelin/f-shortcuts
 COPY --from=build /app/dist /usr/share/nginx/html
 RUN rm /etc/nginx/conf.d/default.conf
